@@ -32,7 +32,8 @@ Hyperparameters used are
 ## Rewards
 
 The best performance was achieved by **DDPG** where the reward of +30 was achieved in 108 episodes (Environment solved in  episodes). This was done using enviroenemt with 20 agents in parallel.
-  ![ddpg](Scoret.png)
+
+![ddpg](Scoret.png)
   
 ## Ideas for improvement
 
