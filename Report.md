@@ -4,17 +4,7 @@ The project demonstrates how policy-based methods - in particular actor and crit
 The objective is to train a double-jointed arm that can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector is a number between -1 and 1. 
-
-The following report is written in four parts:
-
-- **Implementation**
-
-- **Results**
-
-- **Ideas for improvement** 
-
   
-
 ## Learning Algorithm
 
 The algorithm uses actor-critic method to train the agent. Policy-based methods like REINFORCE, which use a Monte-Carlo estimate, have the problem of high variance. TD estimates used in value-based methods have low bias and low variance. Actor-critic methods balance the two methods where the actor is a neural network which updates the policy and the critic is another neural network which evaluates the policy being learned which is, in turn, used to train the actor.
