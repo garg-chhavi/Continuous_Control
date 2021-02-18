@@ -23,8 +23,8 @@ Hyperparameters used are
 | ----------------------------------- | ----- |
 | Replay buffer size                  | 1e6   |
 | Batch size                          | 1024  |
-| $\gamma$ (discount factor)          | 0.99  |
-| $\tau$                              | 1e-3  |
+| gamma (discount factor)          | 0.99  |
+| tau                              | 1e-3  |
 | Actor Learning rate                 | 1e-4  |
 | Critic Learning rate                | 3e-4  |
 | Leak for LeakyReLU                  | 0.01  |
