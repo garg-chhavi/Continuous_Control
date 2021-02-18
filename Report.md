@@ -29,7 +29,7 @@ Hyperparameters used are
 | Critic Learning rate                | 3e-4  |
 | Leak for LeakyReLU                  | 0.01  |
 
-  #Rewards
+## Rewards
 
 The best performance was achieved by **DDPG** where the reward of +30 was achieved in 108 episodes (Environment solved in  episodes). This was done using enviroenemt with 20 agents in parallel.
   ![ddpg](Scoret.png)
